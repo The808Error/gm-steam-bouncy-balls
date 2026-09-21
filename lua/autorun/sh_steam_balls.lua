@@ -3,6 +3,7 @@ if SERVER then
 end
 
 local COLOR_WHITE = Color( 255, 255, 255, 255 )
+local DEFAULT_BOUNCE_SOUND = Sound( "garrysmod/balloon_pop_cute.wav" )
 
 local function registerBall( class, iconPath, printName, bounceSound, consumeCallback )
     local ENT = {}
@@ -27,7 +28,7 @@ local function registerBall( class, iconPath, printName, bounceSound, consumeCal
         render.DrawSprite( pos, size, size, COLOR_WHITE )
     end
 
-    bounceSound = bounceSound or Sound( "garrysmod/balloon_pop_cute.wav" )
+    bounceSound = bounceSound or DEFAULT_BOUNCE_SOUND
     function ENT:PhysicsCollide( data, physobj )
 
         -- Play sound on bounce
