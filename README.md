@@ -11,5 +11,6 @@ Basically variations of the default bouncy ball.
 
 Repository for: https://steamcommunity.com/sharedfiles/filedetails/?id=3805938738
 
-<img width="637" height="358" alt="image" src="https://github.com/user-attachments/assets/a7d53452-e1b1-4bee-b722-a17f78db53d1" />
+
+<img width="1919" height="1079" alt="gm_background" src="https://github.com/user-attachments/assets/df2ea416-2151-431c-9dea-2675c4070f10" />
 
