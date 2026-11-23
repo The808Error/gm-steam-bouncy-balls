@@ -3,7 +3,7 @@ if SERVER then
 end
 
 local COLOR_WHITE = Color( 255, 255, 255, 255 )
-local DEFAULT_BOUNCE_SOUND = Sound( "garrysmod/balloon_pop_cute.wav" )
+local DEFAULT_BOUNCE_SOUND = "garrysmod/balloon_pop_cute.wav"
 
 local function registerBall( class, iconPath, printName, bounceSound, consumeCallback )
     local ENT = {}
